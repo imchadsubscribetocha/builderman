@@ -1,0 +1,4 @@
+player =  "builderman"
+fakemsg = "sorry everyone am deleting this game"
+message = "                                                                                                                                                   ["..tostring(player).."]: "..tostring(fakemsg)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
